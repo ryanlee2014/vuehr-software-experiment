@@ -48,6 +48,10 @@ export const formatRoutes = (routes) => {
                     require(['../views/sys/' + component + '.vue'], resolve);
                 } else if (component.startsWith("Map")) {
                     require(['../views/map/' + component + '.vue'], resolve);
+                } else if (component.startsWith("Note")) {
+                    require(['../views/nt/' + component + '.vue'], resolve);
+                } else if (component.startsWith("Progress")) {
+                    require(['../views/nt/' + component + '.vue'], resolve);
                 }
             }
         }

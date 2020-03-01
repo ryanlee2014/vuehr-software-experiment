@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Login from './views/Login.vue'
+import Register from './views/Register.vue';
 import Home from './views/Home.vue'
 import FriendChat from './views/chat/FriendChat.vue'
 
@@ -14,7 +15,15 @@ export default new Router({
             component: Login,
             // @ts-ignore
             hidden:true
-        }, {
+        },
+        {
+            path: '/register',
+            name: 'Register',
+            component: Register,
+            // @ts-ignore
+            hidden: true
+        },
+        {
             path: '/home',
             name: 'Home',
             component: Home,
