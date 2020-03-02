@@ -154,6 +154,8 @@
         }
 
         showMap(row: any) {
+            row.latitude = parseInt((row.latitude * 1000) + "") / 1000;
+            row.longitude = parseInt((row.longitude * 1000) + "") / 1000;
             this.showMapInfo = row;
             this.mapBrowseVisible = true;
         }
@@ -173,10 +175,6 @@
         onCenterUpdated (center: any) {
             this.dialogAddMap.latitude = center.lat;
             this.dialogAddMap.longitude = center.lng;
-        }
-
-        deleteMap() {
-
         }
     }
 </script>

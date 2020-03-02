@@ -39,7 +39,7 @@
                     <div class="homeWelcome" v-if="this.$router.currentRoute.path=='/home'">
                         欢迎来到微人事！
                         <div>
-                            <video src="http://mpvideo.qpic.cn/0af2hglmym6f4dapb4cqgcqpa4cv53yoa3txo2gbaqaqubiabiga.f10002.mp4?dis_k=f8d9d91db760758bb4701398911136e7&dis_t=1583090528"
+                            <video src="http://mpvideo.qpic.cn/0bf2v4aaiaaajqaeao2zl5pfbl6dasxqabaa.f10002.mp4?dis_k=1d874cf1d90f04c7b70d5a0b733ec6f3&dis_t=1583126804"
                             width="60%" controls></video>
                         </div>
                     </div>
